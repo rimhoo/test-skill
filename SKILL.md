@@ -1,6 +1,9 @@
 ---
 name: test-skill
 description: 测试 skill — 至少需要二十个字符才行够长。
+repository: "branch 'main' set up to track 'origin/main'."
+default_branch: "main"
+published_at: "2026-06-12"
 ---
 
 # Test
