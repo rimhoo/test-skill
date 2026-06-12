@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "test_skill",
+    "description": "测试 skill — 至少需要二十个字符才行够长。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "用户的问题或分析请求"
+        },
+        "context": {
+          "type": "string",
+          "description": "背景信息（可选）"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    },
+    "system_prompt": "# test-skill\n\n> 触发场景：测试 skill — 至少需要二十个字符才行够长。\n\n# Test\n\n正文也需要至少五十个字符才能通过 validate_skill 的检查,所以这里要多写一些内容来凑够长度。\n"
+  }
+}

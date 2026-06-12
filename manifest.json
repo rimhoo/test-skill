@@ -1,0 +1,31 @@
+{
+  "skill_id": "test-skill",
+  "name": "test-skill",
+  "version": "1.0.0",
+  "description": "测试 skill — 至少需要二十个字符才行够长。",
+  "triggers": [
+    "测试",
+    "至少需要二十",
+    "个字符才行够"
+  ],
+  "tags": [],
+  "author": "",
+  "created": "2026-06-12",
+  "language": "zh-CN",
+  "standard": "USS-1.0",
+  "platforms": {
+    "claude_code": "SKILL.md",
+    "system_prompt": "prompt.md",
+    "system_prompt_compact": "prompt_compact.md",
+    "openai_tool": "openai_tool.json",
+    "coze": "prompt.md",
+    "openclaw": "prompt.md",
+    "hermes": "prompt.md",
+    "dify": "prompt.md",
+    "langchain": "prompt.md"
+  },
+  "token_estimates": {
+    "full": 50,
+    "compact": 16
+  }
+}
